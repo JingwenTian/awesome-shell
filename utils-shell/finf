@@ -1,4 +1,8 @@
 #!/bin/sh
+#查找当前目录下存在此"字符串"的文件 - 行, 高亮显示
+#Usage: findf 'string'
+#Author: jingwentian
+
 if [ $# -lt 1 ]; then
     echo "find in file:  $name"
     exit 1
