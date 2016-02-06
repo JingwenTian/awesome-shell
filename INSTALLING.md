@@ -6,4 +6,10 @@
     - 安装: `sudo apt-get install nmon`
     - 使用: `nmon`
 
+2. 磁盘IO分析工具
+    - iotop
+    - iostat
 
+3. 网络
+    - tcpdump
+    

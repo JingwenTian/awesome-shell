@@ -94,6 +94,7 @@ Init_Addons()
 
 	Install_Git
 	Install_Zsh
+	Install_Composer
 }
 
 

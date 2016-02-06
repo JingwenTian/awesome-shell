@@ -491,6 +491,13 @@ Install_Zsh()
 	#oh my zsh 配置
 }
 
+#安装Composer
+Install_Composer()
+{
+	Echo_Blue "[+] Installing Composer"
+	curl -sS https://getcomposer.org/installer | php
+	mv composer.phar /usr/local/bin/composer
+}
 
 
 
