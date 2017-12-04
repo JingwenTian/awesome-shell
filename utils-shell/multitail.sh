@@ -14,7 +14,7 @@ PARAMS_LOG=$1
 # 需要合并的日志文件配置(如果PARAMS_LOG为空则可以在此手工配置 ex: ('/foo/a.log' '/bar/b.log'))
 TARGET_LOG=()
 # 合并输出的日志文件
-TAIL_LOG=/tmp/multilog.log
+TAIL_LOG=/tmp/multilog_$RANDOM.log
 # PID容器(用于退出时杀死) 
 TAIL_PID=()
 
